@@ -1,10 +1,17 @@
 .App {
   text-align: center;
+  color: white
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.body{
+  background-color: red;
+  height: 90vh;
+  padding: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -36,3 +43,58 @@
     transform: rotate(360deg);
   }
 }
+
+.nav{
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px;
+}
+
+.display{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row{
+  display:flex;
+  justify-content: center;
+}
+
+.item{
+  margin: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 150px
+}
+
+.form{
+  margin-top: 40px;
+  display:flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+button{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+  color:red
+  }
+  button:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+  }
